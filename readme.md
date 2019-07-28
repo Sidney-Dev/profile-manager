@@ -2,12 +2,12 @@ This application allows a user to edit his profile and contact information.
 For the contact information, the edit, confirm and delete options are done using VueJs.
 
 
-php artisan key:generate
-php artisan composer dump-autoload
-composer update
-php artisan migrate
-php artisan db:seed
-php artisan serve
+<p>php artisan key:generate</p>
+<p>php artisan composer dump-autoload </p>
+<p>composer update </p>
+<p>php artisan migrate </p>
+<p>php artisan db:seed </p>
+<p>php artisan serve </p>
 
 The default user logins are:
 Email: fullstack@example.com

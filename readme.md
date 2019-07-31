@@ -1,6 +1,6 @@
 In this application, built withLaravel and VueJS, a user registers on the site and is able to enter contact information such as name and phone.
 
-To creation of the contacts is done with Laravel only. But there is a VueComponent that lists all the contacts, allows user to edit, delete and confirm. Each contact that added is linked to the user that adds it only.
+The creation of the contacts is done with Laravel only. But there is a VueComponent that lists all the contacts, allows user to edit, delete and confirm. Each contact that added is linked to the user that adds it only.
 A user is also able to update his profile information, and note: I created an observer that checks if the email is update. If so happens, an email is sent to the old email address.
 
 The seeded user(only), has the ability to send a database notification to all users of the system, and such notification, contains information of how long the user has been in the system for, in human readable time. (ie: 2 seconds ago).

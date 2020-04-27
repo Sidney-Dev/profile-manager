@@ -1,4 +1,4 @@
-In this application, built withLaravel and VueJS, a user registers on the site and is able to enter contact information such as name and phone.
+In this application, built with Laravel and VueJS, a user registers on the site and is able to enter contact information such as name and phone.
 
 The creation of the contacts is done with Laravel only. But there is a VueComponent that lists all the contacts, allows user to edit, delete and confirm. Each contact that added is linked to the user that adds it only.
 A user is also able to update his profile information, and note: I created an observer that checks if the email is update. If so happens, an email is sent to the old email address.
